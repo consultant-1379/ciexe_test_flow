@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>ciexe_test_flow</artifactId>
+		<groupId>com.ericsson.oss.ci</groupId>
+		<version>1.2.99</version>
+	</parent>
+
+	<artifactId>ciexe_flow-jar</artifactId>
+  <version>1.2.98</version>
+	<packaging>jar</packaging>
+	<name>[${project.parent.artifactId}] JAR module</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.oss.ci</groupId>
+            <artifactId>ciexe_jar</artifactId>
+            <version>2.1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.ci</groupId>
+            <artifactId>ciexe_one_api</artifactId>
+            <version>2.1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.ci</groupId>
+            <artifactId>ciexe_two_api</artifactId>
+            <version>2.1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.ci</groupId>
+            <artifactId>ciexe_three_api</artifactId>
+            <version>2.1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.ci</groupId>
+            <artifactId>ciexe_four_api</artifactId>
+            <version>2.1.13</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.ci</groupId>
+            <artifactId>ciexe_five_api</artifactId>
+            <version>2.1.13</version>
+        </dependency>
+     </dependencies>
+
+</project>
